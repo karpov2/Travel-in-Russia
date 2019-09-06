@@ -1,0 +1,5 @@
+@import url('./_sizing/intro__text_sizing.css');
+@import url('./_weight/intro__text_weight_bold.css');
+@import url('./size/intro__text_size_normal.css');
+@import url('./size/intro__text_size_medium.css');
+@import url('./size/intro__text_size_small.css');

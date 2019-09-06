@@ -1,0 +1,6 @@
+@import url(./__author/intro__author.css);
+
+.intro__content-row {
+    display: flex;
+    margin-bottom: 20px;
+}
