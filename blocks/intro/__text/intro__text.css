@@ -1,0 +1,11 @@
+@import url('./_content-sizing/intro__text_content-sizing.css');
+@import url('./_size/intro__text_size_big.css');
+@import url('./_size/intro__text_size_medium.css');
+@import url('./_size/intro__text_size_small.css');
+@import url('./_wieght/intro__text_wieght_bold.css');
+
+.intro__text {
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: 1.6em;
+}
