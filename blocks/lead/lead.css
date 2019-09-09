@@ -4,9 +4,5 @@
 @import url('__caption/lead__caption.css');
 
 .lead {
-    display: flex;
-    flex-flow: column nowrap;
-    align-items: center;
     padding: 20px 100px 0;
-    text-align: center;
 }
