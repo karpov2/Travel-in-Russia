@@ -24,6 +24,7 @@
         <section class="lead">
             <h1 class="lead__title">Путешествия по России</h1>
             <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
+
             <figure>
                 <img src="./blocks/lead/__image/lead__image.jpg" alt="Карта пути от Пскова до Улан-Удэ" class="lead__image">
                 <figcaption class="lead__caption">ваша полка — верхняя</figcaption>
@@ -79,6 +80,7 @@
                     <p class="place__paragraph">На этом Калининградская область не заканчивается. Для путешественника и исследователя там же по соседству — самая западная точка России, Балтийская коса, — и немецкое наследие россыпи небольших приморских городов. Атмосфера здешних мест исключает суету, окуная в спокойствие природы и запах стального, прохладного моря.</p>
                 </div>
             </div>
+
             <div class="place">
                 <h3 class="place__title">Кольский</h3>
                 <div class="place__website">
@@ -91,6 +93,7 @@
                     <p class="place__paragraph">Возможно, вы смотрели Звягинцева и даже слышали историю арктического фестиваля в Териберке. Возможно, слово «Хибины» не осталось под снегом школьных воспоминаний об уроках географии. Возможно, вы не интересовались пронизывающей земную кору сверхглубокой скважиной, а от апатитов вас давно накрывает апатия. Но ваша мечта увидеть северное сияние начинает сбываться с билетом в Мурманск.</p>
                 </div>
             </div>
+
             <div class="place">
                 <h3 class="place__title">Алтай</h3>
                 <div class="place__website">
@@ -103,6 +106,7 @@
                     <p class="place__paragraph">Климат на Алтае умеренный, поэтому ехать сюда лучше всего летом. Так вы увидите всё разнообразие местной флоры и фауны. По лесам Алтая бродят лоси, над хребтами летают орлы, а на равнинах пасутся косули. И знаменитые манулы — тоже обитатели Алтайского края.</p>
                 </div>
             </div>
+
             <div class="place">
                 <h3 class="place__title">Зимний Байкал</h3>
                 <div class="place__website">
@@ -115,6 +119,7 @@
                     <p class="place__paragraph">Конечно, это всё так. Но Байкал ещё идеальное место для соревнований по скийорингу. Это такой вид спорта, когда лыжник привязывает себя к мотоциклу, и тандем старается развить как можно бóльшую скорость на льду. В марте 2019 года на фестивале «Байкальская миля» был поставлен мировой рекорд — 197.011 км/ч.</p>
                 </div>
             </div>
+
             <div class="place">
                 <h3 class="place__title">Карелия</h3>
                 <div class="place__website">
@@ -131,16 +136,89 @@
         <section class="video">
             <h2 class="content-title">В глубины Земли и в дальний космос</h2>
             <p class="content-subtitle">Видео от студии Stereotactic о местах в России, где ведутся фундаментальные исследования</p>
+            
             <div class="video__container">
-                <a class="video__item" href="#">
+                <a class="video__item" href="https://vimeo.com/81106671">
                     <div class="video__icon_play"></div>
-                    <p class="video__duration">6:30</p>
-                    <h3 class="video__title">Colors of Kamchatka</h3>
-                    <p class="video__subtitle">Director: Pavel Karykhalin</p>
-                    <img class="video__item-bg" src="./blocks/video/__item-bg/video__item-bg-1.jpg" alt="На камчатку">
+                    <div>
+                        <p class="video__duration">6:30</p>
+                        <h3 class="video__title">Colors of Kamchatka</h3>
+                        <p class="video__subtitle">Director: Pavel Karykhalin</p>
+                    </div>
+                    <div class="video__item-bg video__item-bg_kamchatka"></div>
                 </a>
-                <div class="video__item"></div>
+                <a class="video__item" href="https://vimeo.com/81106671">
+                    <div class="video__icon_play"></div>
+                    <div>
+                        <p class="video__duration">24:45</p>
+                        <h3 class="video__title">Обсерватория | Observatory</h3>
+                        <p class="video__subtitle">Director: Alexander Khudokon</p>
+                    </div>
+                    <div class="video__item-bg video__item-bg_observatory"></div>
+                </a>
             </div>
+        </section>
+
+        <section class="additional">
+            <h2 class="content-title">А также</h2>
+            <p class="content-subtitle">места, рекомендованные нашими фотографами</p>
+
+            <div class="additional__container">
+                <a class="additional__item" href="#">
+                    <h3 class="additional__heading">Новороссийская бухта</h3>
+                    <p class="additional__text">Главный торговый порт не курорт, но море здесь лазурное, и толпы кораблей на рейде. Залюбуешься.</p>
+                    <img class="additional__item-bg" src="./blocks/additional/__item-bg/additional__item-bg-1.jpg" alt="Новороссийская бухта, вид сверху">
+                </a>
+                <a class="additional__item" href="#">
+                    <h3 class="additional__heading">Аракульский шихан</h3>
+                    <p class="additional__text">Даже для Южного Урала, где красиво везде, это пейзаж выдающийся. И там отсутствует несносная мошкá.</p>
+                    <img class="additional__item-bg" src="./blocks/additional/__item-bg/additional__item-bg-2.jpg" alt="Новороссийская бухта, вид сверху">
+                </a>
+                <a class="additional__item" href="#">
+                    <h3 class="additional__heading">Череповец</h3>
+                    <p class="additional__text">Громадный металлургический комбинат на водном пути с Волги в Балтийское море. В нём есть своя красота.</p>
+                    <img class="additional__item-bg" src="./blocks/additional/__item-bg/additional__item-bg-3.jpg" alt="Новороссийская бухта, вид сверху">
+                </a>
+                <a class="additional__item" href="#">
+                    <h3 class="additional__heading">Никола-Ленивец</h3>
+                    <p class="additional__text">Оцените ответ современных художников идолам капища, которое было тут при древнем поселении на реке Угра.</p>
+                    <img class="additional__item-bg" src="./blocks/additional/__item-bg/additional__item-bg-4.jpg" alt="Новороссийская бухта, вид сверху">
+                </a>
+            </div>
+        </section>
+
+        <section class="comments">
+            <h2 class="content-title">Фотографы, снимающие Россию</h2>
+            <p class="content-subtitle">Природа и люди вдохновили их работы, удостоенные наград на международных конкурсах</p>
+
+            <div class="comments__container">
+                <div class="comment">
+                    <img src="./blocks/comments/__container/comment/__image/comment__image-viktor-lygushkin.jpg" alt="Фотография Виктора Лягушкина" class="comment__image">
+                    <blockquote class="comment__blockquote">
+                        <p class="comment__quote">«Если вам кажется, что в России ничего не происходит, то просто выгляньте “наружу”…»</p>
+                        <cite class="comment__author">Виктор Лягушкин</cite>
+                    </blockquote>
+                </div>
+                <div class="comment">
+                    <img src="./blocks/comments/__container/comment/__image/comment__image-ivan-hafizov.jpg" alt="Фотография Ивана Хафизова" class="comment__image">
+                    <blockquote class="comment__blockquote">
+                        <p class="comment__quote">«Если в город едут туристы — неважно за чем они туда едут: за шамбалой или фрески Рублева искать, или на родину Тарковского — туристы обеспечивают любой город молодёжью, рабочими местами и в конечном счёте наполняют его жизнью.»</p>
+                        <cite class="comment__author">Иван Хафизов</cite>
+                    </blockquote>
+                </div>
+                <div class="comment">
+                    <img src="./blocks/comments/__container/comment/__image/comment__image-sergey-maksimishin.jpg" alt="Фотография Сергея Максимишина" class="comment__image">
+                    <blockquote class="comment__blockquote">
+                        <p class="comment__quote">«Ты приезжаешь, и люди рассказывают тебе, как им плохо. А когда ты покажешь, как им плохо, то ты сволочь и всё очернил.»</p>
+                        <cite class="comment__author">Сергей Максимишин</cite>
+                    </blockquote>
+                </div>
+            </div>
+        </section>
+
+        <section class="cover">
+            <h2 class="cover__title">До Байкала «на собаках»</h2>
+            <p class="cover__subtitle">По мотивам учебной темы о Транссибе и iframes — путешествие от столицы до Байкала на электричках.</p>
         </section>
 
     </div>
