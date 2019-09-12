@@ -1,0 +1,17 @@
+.cover__link {
+    height: 594px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+    color: #fff;
+    background-color: rgba(42, 44, 47, 0.3);
+    transition: background-color 0.5s ease;
+}
+
+.cover__link:hover {
+    background-color: rgba(42, 44, 47, 0.8);
+}

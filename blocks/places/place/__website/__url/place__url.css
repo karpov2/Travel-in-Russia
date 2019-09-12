@@ -1,11 +1,4 @@
 .place__url {
     font-size: 18px;
     line-height: 1.7em;
-    border-bottom: 0.05em solid #fff;
-    color: #fff;
-}
-
-.place__url:hover {
-    color: rgba(255, 255, 255, 0.7);
-    border-color: rgba(255, 255, 255, 0.7);
 }

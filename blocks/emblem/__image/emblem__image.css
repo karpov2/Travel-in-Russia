@@ -1,0 +1,7 @@
+.emblem__image {
+    width: 100%;
+    height: 226px;
+    object-fit: contain;
+    object-position: top center;
+    margin-bottom: 35px;
+}
