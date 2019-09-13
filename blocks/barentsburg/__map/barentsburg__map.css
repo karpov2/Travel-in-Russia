@@ -1,6 +1,7 @@
 .barentsburg__map {
-	background: url('./barentsburg__map.jpg') no-repeat center / cover;
 	width: 100%;
 	height: 464px;
 	margin: 40px 0;
+	object-fit: cover;
+	object-position: center;
 }
