@@ -1,7 +1,5 @@
 .video__title {
     font-size: 36px;
-    line-height: 1.09em;
-    font-weight: 900;
-    margin: 12px 0;
     max-width: 322px;
+    margin: 12px 0;
 }
