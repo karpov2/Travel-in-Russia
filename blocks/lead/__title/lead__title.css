@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .lead__title {
 	font-size: 96px;
 	line-height: 1em;
@@ -5,4 +6,27 @@
 	margin: 20px 0 0 0;
 	max-width: 782px;
 	text-align: center;
+=======
+.lead__title {
+    font-size: 6rem;
+    max-width: 782px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+@media screen and (min-width: 375px) and (max-width: 1280px) {
+
+    .lead__title {
+        font-size: calc( (100vw - 23.4rem)/(80 - 23.4) * (6 - 2.5) + 2.5rem );
+    }
+
+}
+
+@media screen and (max-width: 375px) {
+
+    .lead__title {
+        font-size: 2.5rem;
+    }
+
+>>>>>>> 69ac07f1bac80900c3da34737aac52856ccd4203
 }

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import url('./__title/intro__title.css');
 @import url('./__subtitle/intro__subtitle.css');
 @import url('./__content-row/intro__content-row.css');
@@ -6,4 +7,17 @@
 
 .intro {
 	padding: 80px 100px;
+=======
+@import url('./__title/intro__title.css');
+@import url('./__subtitle/intro__subtitle.css');
+@import url('./__content-row/intro__content-row.css');
+@import url('./__text/intro__text.css');
+@import url('./__list/intro__list.css');
+
+.intro {
+    max-width: 985px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 80px 0 90px;
+>>>>>>> 69ac07f1bac80900c3da34737aac52856ccd4203
 }

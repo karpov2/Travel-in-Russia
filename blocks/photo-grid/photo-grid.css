@@ -1,7 +1,33 @@
+<<<<<<< HEAD
 @import url('./__item/photo-grid__item.css');
 
 .photo-grid {
 	display: grid;
 	grid-template: auto / repeat(4, 284px);
 	grid-gap: 16px;
+=======
+@import url('./__item/photo-grid__item.css');
+
+.photo-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 16px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+    .photo-grid {
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 14px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+    .photo-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+>>>>>>> 69ac07f1bac80900c3da34737aac52856ccd4203
 }

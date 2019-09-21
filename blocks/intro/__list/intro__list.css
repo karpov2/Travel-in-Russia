@@ -1,7 +1,16 @@
+<<<<<<< HEAD
 @import url('./_content-author/intro__list_content-author.css');
 
 .intro__list {
 	list-style: none;
 	margin: 0;
 	padding: 0;
+=======
+@import url('./__author/intro__list_content-author.css');
+
+.intro__list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+>>>>>>> 69ac07f1bac80900c3da34737aac52856ccd4203
 }

@@ -1,4 +1,25 @@
+<<<<<<< HEAD
 .header__logo {
     width: 177px;
     height: 52px;
+=======
+.header__logo {
+    width: 177px;
+}
+
+@media screen and (min-width: 375px) and (max-width: 768px) {
+
+    .header__logo {
+        width: calc( (100vw - 375px)/(768 - 375) * (177 - 142) + 142px );
+    }
+
+}
+
+@media screen and (max-width: 375px) {
+
+    .header__logo {
+        width: 142px;
+    }
+
+>>>>>>> 69ac07f1bac80900c3da34737aac52856ccd4203
 }

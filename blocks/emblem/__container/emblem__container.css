@@ -1,0 +1,6 @@
+.emblem__container {
+    display: grid;
+    grid-template: auto / repeat(5, 1fr);
+    grid-gap: 40px;
+    margin-top: 75px;
+}

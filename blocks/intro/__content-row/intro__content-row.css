@@ -1,4 +1,18 @@
+<<<<<<< HEAD
 .intro__content-row {
 	display: flex;
 	margin-bottom: 20px;
+=======
+.intro__content-row {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 1024px) {
+
+    .intro__content-row {
+        flex-wrap: wrap;
+    }
+
+>>>>>>> 69ac07f1bac80900c3da34737aac52856ccd4203
 }

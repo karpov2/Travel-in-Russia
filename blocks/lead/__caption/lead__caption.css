@@ -1,6 +1,15 @@
+<<<<<<< HEAD
 .lead__caption {
 	font-size: 10px;
 	line-height: 1.2em;
 	letter-spacing: 0.15em;
 	text-transform: uppercase;
+=======
+.lead__caption {
+    font-size: 0.6rem;
+    line-height: 1.2;
+    letter-spacing: 0.09rem;
+    text-transform: uppercase;
+    margin-top: 10px;
+>>>>>>> 69ac07f1bac80900c3da34737aac52856ccd4203
 }

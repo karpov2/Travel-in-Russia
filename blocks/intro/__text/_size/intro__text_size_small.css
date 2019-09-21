@@ -1,3 +1,9 @@
+<<<<<<< HEAD
 .intro__text_size_small {
 	font-size: 10px;
+=======
+.intro__text_size_small {
+    font-size: 10px;
+    line-height: 1.6em;
+>>>>>>> 69ac07f1bac80900c3da34737aac52856ccd4203
 }

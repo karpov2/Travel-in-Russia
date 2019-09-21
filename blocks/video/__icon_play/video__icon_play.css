@@ -1,0 +1,4 @@
+.video__icon_play {
+    background: url('./video__icon_play.svg') no-repeat 0% 0% / 41px 41px;
+    flex: 1;
+}

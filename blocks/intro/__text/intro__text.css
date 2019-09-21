@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import url('./_content-sizing/intro__text_content-sizing.css');
 @import url('./_size/intro__text_size_big.css');
 @import url('./_size/intro__text_size_medium.css');
@@ -8,4 +9,14 @@
 	margin-top: 0;
 	margin-bottom: 0;
 	line-height: 1.6em;
+=======
+@import url('./_sizing/intro__text_sizing-content.css');
+@import url('./_weight/intro__text_weight_bold.css');
+@import url('./_size/intro__text_size_normal.css');
+@import url('./_size/intro__text_size_medium.css');
+@import url('./_size/intro__text_size_small.css');
+
+.intro__text {
+    margin: 0;
+>>>>>>> 69ac07f1bac80900c3da34737aac52856ccd4203
 }

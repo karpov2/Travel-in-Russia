@@ -1,7 +1,14 @@
+<<<<<<< HEAD
 .lead__image {
 	width: 100%;
 	height: 554px;
 	object-fit: cover;
 	object-position: center;
 	margin-bottom: 10px;
+=======
+.lead__image {
+    width: 100%;
+    height: 554px;
+    object-fit: cover;
+>>>>>>> 69ac07f1bac80900c3da34737aac52856ccd4203
 }

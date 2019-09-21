@@ -1,5 +1,12 @@
+<<<<<<< HEAD
 .intro__subtitle {
 	font-size: 24px;
 	line-height: 1.6em;
 	margin: 40px 0 20px;
+=======
+.intro__subtitle {
+    font-size: 1.5rem;
+    line-height: 1.6;
+    margin: 40px 0 20px;
+>>>>>>> 69ac07f1bac80900c3da34737aac52856ccd4203
 }

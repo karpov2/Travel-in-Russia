@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import url('./__title/lead__title.css');
 @import url('./__subtitle/lead__subtitle.css');
 @import url('./__image/lead__image.css');
@@ -8,4 +9,23 @@
 	flex-direction: column;
 	align-items: center;
 	padding: 0 100px;
+=======
+@import url('__title/lead__title.css');
+@import url('__subtitle/lead__subtitle.css');
+@import url('__image/lead__image.css');
+@import url('__caption/lead__caption.css');
+
+.lead {
+    max-width: 985px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    
+    .lead {
+        
+    }
+
+>>>>>>> 69ac07f1bac80900c3da34737aac52856ccd4203
 }

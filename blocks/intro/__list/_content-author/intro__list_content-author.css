@@ -1,4 +1,9 @@
+<<<<<<< HEAD
 .intro__list_content-author {
 	max-width: 283px;
 	width: 100%;
+=======
+.intro__list_content-author {
+    flex-basis: 283px;
+>>>>>>> 69ac07f1bac80900c3da34737aac52856ccd4203
 }

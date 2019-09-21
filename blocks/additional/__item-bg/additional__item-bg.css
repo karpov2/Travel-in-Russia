@@ -1,0 +1,16 @@
+@import url('./_poster/_novosib-buhta/additional__item-bg_poster_novosib-buhta.css');
+@import url('./_poster/_arakulskiy-shihan/additional__item-bg_poster_arakulskiy-shihan.css');
+@import url('./_poster/_cherepovec/additional__item-bg_poster_cherepovec.css');
+@import url('./_poster/_nikola-lenivec/additional__item-bg_poster_nikola-lenivec.css');
+
+.additional__item-bg {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: -1;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}

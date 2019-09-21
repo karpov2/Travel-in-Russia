@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import url('../vendor/normalize.css');
 @import url('../blocks/page/page.css');
 @import url('../blocks/container/container.css');
@@ -5,3 +6,25 @@
 @import url('../blocks/lead/lead.css');
 @import url('../blocks/intro/intro.css');
 @import url('../blocks/photo-grid/photo-grid.css');
+=======
+@import url('../vendor/normalize.css');
+@import url('../blocks/page/page.css');
+@import url('../blocks/container/container.css');
+@import url('../blocks/header/header.css');
+@import url('../blocks/title/title.css');
+@import url('../blocks/link/link.css');
+@import url('../blocks/lead/lead.css');
+@import url('../blocks/intro/intro.css');
+@import url('../blocks/photo-grid/photo-grid.css');
+@import url('../blocks/places/places.css');
+@import url('../blocks/content-title/content-title.css');
+@import url('../blocks/content-subtitle/content-subtitle.css');
+@import url('../blocks/video/video.css');
+@import url('../blocks/additional/additional.css');
+@import url('../blocks/comments/comments.css');
+@import url('../blocks/cover/cover.css');
+@import url('../blocks/cover-bg/cover-bg.css');
+@import url('../blocks/emblem/emblem.css');
+@import url('../blocks/barentsburg/barentsburg.css');
+@import url('../blocks/footer/footer.css');
+>>>>>>> 69ac07f1bac80900c3da34737aac52856ccd4203

@@ -1,0 +1,5 @@
+.additional__container {
+    display: grid;
+    grid-template: 330px / repeat(4, 1fr);
+    grid-gap: 16px;
+}
