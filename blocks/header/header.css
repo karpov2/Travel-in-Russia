@@ -7,3 +7,19 @@
     align-items: center;
     padding: 30px 0 50px;
 }
+
+@media screen and (min-width: 375px) and (max-width: 768px) {
+
+	.header {
+		padding-top: calc( (100vw - 375px)/(768 - 375) * (30 - 15) + 15px );
+	}
+
+}
+
+@media screen and (max-width: 375px) {
+
+	.header {
+		padding-top: 15px;
+	}
+
+}

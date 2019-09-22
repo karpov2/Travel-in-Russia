@@ -4,3 +4,19 @@
     margin: 0 auto;
     padding: 0 50px;
 }
+
+@media screen and (min-width: 375px) and (max-width: 1024px) {
+
+    .container {
+        padding: 0 calc( (100vw - 375px)/(1024 - 375) * (50 - 15) + 15px );
+    }
+
+}
+
+@media screen and (max-width: 375px) {
+
+    .container {
+        padding: 0 15px;
+    }
+
+}

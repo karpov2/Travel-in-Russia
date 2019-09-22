@@ -1,15 +1,23 @@
-<<<<<<< HEAD
-.lead__caption {
-	font-size: 10px;
-	line-height: 1.2em;
-	letter-spacing: 0.15em;
-	text-transform: uppercase;
-=======
 .lead__caption {
     font-size: 0.6rem;
     line-height: 1.2;
-    letter-spacing: 0.09rem;
+    letter-spacing: 0.15em;
     text-transform: uppercase;
     margin-top: 10px;
->>>>>>> 69ac07f1bac80900c3da34737aac52856ccd4203
+}
+
+@media screen and (min-width: 375px) and (max-width: 768px) {
+
+	.lead__caption {
+		margin-left: calc( (100vw - 375px)/(768 - 375) * (50 - 15) + 15px );
+	}
+
+}
+
+@media screen and (max-width: 375px) {
+
+	.lead__caption {
+		margin-left: 15px;
+	}
+
 }

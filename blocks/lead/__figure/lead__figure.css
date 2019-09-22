@@ -1,0 +1,15 @@
+@media screen and (min-width: 375px) and (max-width: 768px) {
+
+	.lead__figure {
+		margin: 0 calc( (100vw - 375px)/(768 - 375) * ((-50) + 15) - 15px );
+	}
+
+}
+
+@media screen and (max-width: 375px) {
+
+	.lead__figure {
+		margin: 0 -15px;
+	}
+
+}
