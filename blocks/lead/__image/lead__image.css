@@ -1,5 +1,23 @@
 .lead__image {
     width: 100%;
-    height: 554px;
+    max-width: 100%;
+    height: auto;
+    max-height: 554px;
     object-fit: cover;
+}
+
+@media screen and (min-width: 375px) and (max-width: 1024px) {
+
+    .lead__image {
+        max-height: calc( (100vw - 375px)/(1024 - 375) * (554 - 211) + 211px );
+    }
+
+}
+
+@media screen and (max-width: 375px) {
+
+    .lead__image {
+        max-height: 211px;
+    }
+
 }

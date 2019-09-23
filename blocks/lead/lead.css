@@ -9,3 +9,11 @@
     width: 100%;
     margin: 0 auto;
 }
+
+@media screen and (min-width: 985px) and (max-width: 1280px) {
+
+    .lead {
+        max-width: calc( (100vw - 985px)/(1280 - 985) * (985 - 1024) + 1024px );
+    }
+
+}

@@ -2,3 +2,19 @@
     font-size: 0.9rem;
     line-height: 1.7;
 }
+
+@media screen and (min-width: 375px) and (max-width: 768px) {
+
+    .intro__text_size_normal {
+        font-size: calc( (100vw - 23.4rem)/(48 - 23.4) * (0.9 - 1) + 1rem );
+    }
+
+}
+
+@media screen and (max-width: 375px) {
+
+    .intro__text_size_normal {
+        font-size: 1rem;
+    }
+
+}

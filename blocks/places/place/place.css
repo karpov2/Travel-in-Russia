@@ -5,6 +5,6 @@
 
 .place {
     display: grid;
-    grid-template: auto / 460px 1fr;
+    grid-template-columns: 460px 1fr;
     grid-gap: 60px 40px;
 }
