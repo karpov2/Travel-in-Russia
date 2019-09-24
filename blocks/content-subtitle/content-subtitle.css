@@ -1,7 +1,33 @@
 .content-subtitle {
-    font-size: 24px;
-    line-height: 1.5em;
+    font-size: 1.5rem;
+    line-height: 1.5;
     max-width: 640px;
     text-align: center;
-    margin: 40px auto 60px;
+    margin: 0 auto 60px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+    .content-subtitle {
+        margin-bottom: calc( (100vw - 768px)/(1024 - 768) * (60 - 40) + 40px );
+    }
+
+}
+
+@media screen and (min-width: 375px) and (max-width: 768px) {
+
+    .content-subtitle {
+        font-size: calc( (100vw - 23.4rem)/(48 - 23.4) * (1.5 - 1) + 1rem );
+        margin-bottom: calc( (100vw - 375px)/(768 - 375) * (40 - 25) + 25px );
+    }
+
+}
+
+@media screen and (max-width: 375px) {
+
+    .content-subtitle {
+        font-size: 1rem;
+        margin-bottom: 25px; 
+    }
+
 }

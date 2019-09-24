@@ -1,6 +1,33 @@
 .content-title {
-    font-size: 72px;
+    font-size: 4.5rem;
     max-width: 800px;
     text-align: center;
-    margin: 0 auto;
+    margin: 0 auto 40px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+    .content-title {
+        font-size: calc( (100vw - 48rem)/(64 - 48) * (4.5 - 2.6) + 2.6rem );
+        margin-bottom: calc( (100vw - 768px)/(1024 - 768) * (40 - 35) + 35px );
+    }
+
+}
+
+@media screen and (min-width: 375px) and (max-width: 768px) {
+
+    .content-title {
+        font-size: calc( (100vw - 23.4rem)/(48 - 23.4) * (2.6 - 2) + 2rem );
+        margin-bottom: calc( (100vw - 375px)/(768 - 375) * (35 - 25) + 25px );
+    }
+
+}
+
+@media screen and (max-width: 375px) {
+
+    .content-title {
+        font-size: 2rem;
+        margin-bottom: 25px; 
+    }
+
 }
