@@ -33,18 +33,18 @@
                 </figure>
             </section>
 
-            <section class="intro">
+            <section class="intro padding-blocks">
                 <h2 class="intro__title title">Чего мы там не видели?</h2>
-                <!-- Этот блок удалили -->
-                <!-- <p class="intro__subtitle">Зачем путешествовать по своему дому</p> -->
+                <!-- Этот элемент удалили -->
+                <p class="intro__subtitle display-none">Зачем путешествовать по своему дому</p>
                 <div class="intro__content-row">
                     <p class="intro__text intro__text_sizing-content intro__text_size_normal">По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только 36% планируют провести отпуск в родной стране. Мол, чего мы тут, дома, не видели? На самом деле, Россия — это целая вселенная с ласковым морем юга, густыми лесами Саян и суровыми льдами плато Путорана. А ещё увидеть все эти красоты можно без миллионов на счету, загранпаспорта и многочасовых перелетов. Как, например, Вера Башмакова — смелая молодая мама, которая взяла в охапку троих детей, усадила их в свою «Ладу» и проехала 20 тысяч километров по родной стране. Мы выбрали и описали некоторые интересные места, достойные вашего отпуска.</p>
                     
-                    <!-- Этот блок удалили -->
-                    <!-- <ul class="intro__list intro__list_content-author">
+                    <!-- Этот элемент удалили -->
+                    <ul class="intro__list intro__list_content-author display-none">
                         <li><p class="intro__text intro__text_size_small"><span class="intro__text intro__text_weight_bold">Автор текста: </span>Владимир Путин</p></li>
                         <li><p class="intro__text intro__text_size_small"><span class="intro__text intro__text_weight_bold">Дата: </span><time datetime="2019-09-05">5 сентября 2019</time></p></li>
-                    </ul> -->
+                    </ul>
                 </div>
 
                 <ul class="intro__list">
@@ -57,7 +57,7 @@
                 
             </section>
 
-            <div class="photo-grid">
+            <div class="photo-grid padding-blocks">
                 <img src="./blocks/photo-grid/__item/__item-1.jpg" alt="Вид из окна поезда" class="photo-grid__item">
                 <img src="./blocks/photo-grid/__item/__item-2.jpg" alt="Вид гор покрытых снегом" class="photo-grid__item">
                 <img src="./blocks/photo-grid/__item/__item-3.jpg" alt="Восход солнца и собака стоит на сене" class="photo-grid__item">
@@ -72,7 +72,7 @@
                 <img src="./blocks/photo-grid/__item/__item-12.jpg" alt="Все горы покрыло белым туманом" class="photo-grid__item">
             </div>
             
-            <section class="places">
+            <section class="places padding-blocks">
                 <div class="place">
                     <h3 class="place__title title">Куршская коса</h3>
                     <div class="place__website">
@@ -138,29 +138,34 @@
                 </div>
             </section>
             
-            <section class="video">
+            <section class="video padding-blocks">
                 <h2 class="content-title title">В глубины Земли и в дальний космос</h2>
                 <p class="content-subtitle">Видео от студии Stereotactic о местах в России, где ведутся фундаментальные исследования</p>
                 
                 <div class="video__container">
                     <a class="video__item" href="https://vimeo.com/81106671" target="_blank">
                         <div class="video__icon_play"></div>
-                        <p class="video__duration">6:30</p>
-                        <h3 class="video__title title">Colors of Kamchatka</h3>
-                        <p class="video__subtitle">Director: Pavel Karykhalin</p>
+                        <div class="video__content">
+                            <p class="video__duration">6:30</p>
+                            <h3 class="video__title title">Colors of Kamchatka</h3>
+                            <p class="video__subtitle">Director: Pavel Karykhalin</p>
+                        </div>
                         <div class="video__item-bg video__item-bg_poster_kamchatka"></div>
                     </a>
                     <a class="video__item" href="https://vimeo.com/290675450" target="_blank">
                         <div class="video__icon_play"></div>
-                        <p class="video__duration">24:45</p>
-                        <h3 class="video__title title">Обсерватория | Observatory</h3>
-                        <p class="video__subtitle">Director: Alexander Khudokon</p>
+                        <div class="video__content">
+                            <p class="video__duration">24:45</p>
+                            <h3 class="video__title title">Обсерватория | Observatory</h3>
+                            <p class="video__subtitle">Director: Alexander Khudokon</p>
+                        </div>
                         <div class="video__item-bg video__item-bg_poster_observatory"></div>
                     </a>
                 </div>
             </section>
-            <!--
-            <section class="additional">
+            
+            <!-- Этот блок удалили -->
+            <section class="additional padding-blocks display-none">
                 <h2 class="content-title title">А также</h2>
                 <p class="content-subtitle">места, рекомендованные нашими фотографами</p>
 
@@ -188,14 +193,13 @@
                     </a>
                 </div>
             </section>
-
-            <section class="comments">
+            
+            <section class="comments padding-blocks">
                 <h2 class="content-title title">Фотографы, снимающие Россию</h2>
                 <p class="content-subtitle">Природа и люди вдохновили их работы, удостоенные наград на международных конкурсах</p>
 
                 <div class="comments__container">
                     <div class="comment">
-                        
                         <img src="./blocks/comments/__container/comment/__image/comment__image-viktor-lygushkin.jpg" alt="Фотография Виктора Лягушкина" class="comment__image">
                         <blockquote class="comment__blockquote">
                             <p class="comment__quote">«Если вам кажется, что в России ничего не происходит, то просто выгляньте “наружу”…»</p>
@@ -218,8 +222,8 @@
                     </div>
                 </div>
             </section>
-
-            <section class="cover">
+           
+            <section class="cover padding-blocks">
                 <a href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank" class="cover__link">
                     <h2 class="cover__title title">До Байкала «на собаках»</h2>
                     <p class="cover__subtitle">По мотивам учебной темы о Транссибе и iframes — путешествие от столицы до Байкала на электричках.</p>
@@ -227,8 +231,9 @@
                     <div class="cover-bg"></div>
                 </a>
             </section>
-
-            <section class="emblem">
+            
+            <!-- Этот блок удалили -->
+            <section class="emblem padding-blocks display-none">
                 <h2 class="emblem__title title">Природа на гербах российских городов</h2>
 
                 <div class="emblem__container">
@@ -255,7 +260,8 @@
                 </div>
             </section>
 
-            <section class="barentsburg">
+            <!-- Этот блок удалили -->
+            <section class="barentsburg padding-blocks display-none">
                 <h2 class="barentsburg__title title">Баренцбург</h2>
                 <p class="barentsburg__coord">78.0648° с.ш. 14.2335° в.д.</p>
 
@@ -269,7 +275,7 @@
                     </div>
                 </div>
             </section>
-            -->
+            
         </main>
         
         <footer class="footer">

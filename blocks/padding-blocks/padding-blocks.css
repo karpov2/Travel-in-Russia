@@ -1,0 +1,19 @@
+.padding-blocks {
+    padding: 50px 0;
+}
+
+@media screen and (min-width: 375px) and (max-width: 768px) {
+
+	.padding-blocks {
+		padding: calc( (100vw - 375px)/(768 - 375) * (50 - 30) + 30px ) 0;
+	}
+
+}
+
+@media screen and (max-width: 375px) {
+
+	.padding-blocks {
+		padding: 30px 0;
+	}
+
+}

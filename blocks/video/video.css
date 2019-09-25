@@ -5,7 +5,3 @@
 @import url('./__title/video__title.css');
 @import url('./__subtitle/video__subtitle.css');
 @import url('./__item-bg/video__item-bg.css');
-
-.video {
-    padding: 50px 0;
-}

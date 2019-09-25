@@ -3,3 +3,11 @@
 .video__container {
     display: flex;
 }
+
+@media screen and (max-width: 600px) {
+
+    .video__container {
+        flex-direction: column;
+    }
+
+}

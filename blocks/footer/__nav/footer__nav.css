@@ -2,7 +2,7 @@
     flex: 1;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 688px) {
 
     .footer__nav {
         margin-bottom: 30px;

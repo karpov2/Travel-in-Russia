@@ -8,30 +8,12 @@
     max-width: 985px;
     width: 100%;
     margin: 0 auto;
-    padding: 80px 0 90px;
 }
 
-@media screen and (min-width: 985px) and (max-width: 1280px) {
+@media screen and (min-width: 985px) and (max-width: 1024px) {
 
     .intro {
-        max-width: calc( (100vw - 985px)/(1280 - 985) * (985 - 1024) + 1024px );
+        max-width: calc( (100vw - 985px)/(1024 - 985) * (985 - 1024) + 1024px );
     }
-
-}
-
-@media screen and (min-width: 375px) and (max-width: 768px) {
-
-	.intro {
-		padding-top: calc( (100vw - 375px)/(768 - 375) * (80 - 60) + 60px );
-		padding-bottom: calc( (100vw - 375px)/(768 - 375) * (90 - 60) + 60px );
-	}
-
-}
-
-@media screen and (max-width: 375px) {
-
-	.intro {
-		padding: 60px 0;
-	}
 
 }

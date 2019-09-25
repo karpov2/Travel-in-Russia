@@ -1,6 +1,7 @@
 @import url('../vendor/normalize.css');
 @import url('../blocks/page/page.css');
 @import url('../blocks/container/container.css');
+@import url('../blocks/padding-blocks/padding-blocks.css');
 @import url('../blocks/header/header.css');
 @import url('../blocks/title/title.css');
 @import url('../blocks/link/link.css');
@@ -18,3 +19,4 @@
 @import url('../blocks/emblem/emblem.css');
 @import url('../blocks/barentsburg/barentsburg.css');
 @import url('../blocks/footer/footer.css');
+@import url('../blocks/display-none/display-none.css');

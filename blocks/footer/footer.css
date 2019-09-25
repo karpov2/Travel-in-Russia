@@ -11,10 +11,34 @@
 	margin-top: 80px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+	.footer {
+		margin-top: calc( (100vw - 768px)/(1024 - 768) * (80 - 20) + 20px );
+	}
+
+}
+
+@media screen and (max-width: 688px) {
 
 	.footer {
 		flex-direction: column;
+	}
+
+}
+
+@media screen and (min-width: 375px) and (max-width: 768px) {
+
+	.footer {
+		margin-top: calc( (100vw - 375px)/(768 - 375) * (20 - 0) + 0px );
+	}
+
+}
+
+@media screen and (max-width: 375px) {
+
+	.footer {
+		margin-top: 0px;
 	}
 
 }

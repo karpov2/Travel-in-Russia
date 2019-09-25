@@ -1,6 +1,14 @@
 .comment__author {
-    font-size: 14px;
-    line-height: 1.7em;
+    font-size: 0.875rem;
+    line-height: 1.7;
     font-weight: 900;
     font-style: normal;
+}
+
+@media screen and (max-width: 768px) {
+
+    .comment__author {
+        margin-bottom: 15px;
+    }
+
 }
