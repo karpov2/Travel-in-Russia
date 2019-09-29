@@ -1,7 +1,7 @@
-@import url('./__title/place__title.css');
-@import url('./__website/place__website.css');
-@import url('./__image/place__image.css');
-@import url('./__paragraph/place__paragraph.css');
+@import url('./place__title/place__title.css');
+@import url('./place__website/place__website.css');
+@import url('./place__image/place__image.css');
+@import url('./place__paragraph/place__paragraph.css');
 
 .place {
     display: grid;

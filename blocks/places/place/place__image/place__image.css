@@ -1,0 +1,25 @@
+.place__image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    object-position: center;
+}
+
+@media screen and (min-width: 375px) and (max-width: 600px) {
+
+    .place__image {
+        width: calc( 100% + ((100vw - 375px)/(600 - 375) * (56 - 30) + 30px) );
+        height: calc( (100vw - 375px)/(600 - 375) * (280 - 375) + 375px );
+        margin: 0 calc( (100vw - 375px)/(600 - 375) * ((-27.1341) + 15) - 15px );
+    }
+
+}
+
+@media screen and (max-width: 375px) {
+
+    .place__image {
+        width: calc( 100% + 30px );
+        margin: 0 -15px;
+    }
+
+}
