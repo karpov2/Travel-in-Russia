@@ -1,9 +1,0 @@
-@import url('./_sizing/intro__text_sizing-content.css');
-@import url('./_weight/intro__text_weight_bold.css');
-@import url('./_size/intro__text_size_normal.css');
-@import url('./_size/intro__text_size_medium.css');
-@import url('./_size/intro__text_size_small.css');
-
-.intro__text {
-    margin: 0;
-}
