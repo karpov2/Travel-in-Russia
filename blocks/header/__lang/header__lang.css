@@ -1,7 +1,8 @@
-@import url('./header__lang_active/header__lang_active.css');
+@import url(./_active/header__lang_active.css);
+/* @import url(./_link/header__lang_link.css); */
 
 .header__lang {
-    font-size: 1.5rem;
+    font-size: 1.5em;
     line-height: 1;
     color: #fff;
     cursor: pointer;
@@ -19,7 +20,7 @@
 @media screen and (min-width: 375px) and (max-width: 768px) {
 
     .header__lang {
-        font-size: calc( (100vw - 23.4rem)/(48 - 23.4) * (1.5 - 1.125) + 1.125rem );
+        font-size: calc( (100vw - 23.4em)/(48 - 23.4) * (1.5 - 1.125) + 1.125em );
     }
 
 }
@@ -27,7 +28,7 @@
 @media screen and (max-width: 375px) {
 
     .header__lang {
-        font-size: 1.125rem;
+        font-size: 1.125em;
     }
 
 }

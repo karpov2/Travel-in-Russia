@@ -1,0 +1,14 @@
+@import url(./_poster/_kamchatka/video__item-bg_poster_kamchatka.css);
+@import url(./_poster/_observatory/video__item-bg_poster_observatory.css);
+
+.video__item-bg {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    z-index: -1;
+}

@@ -1,6 +1,6 @@
-@import url('cover__title/cover__title.css');
-@import url('cover__subtitle/cover__subtitle.css');
-@import url('./link/cover__link.css');
+@import url(./__title/cover__title.css);
+@import url(./__subtitle/cover__subtitle.css);
+@import url(./__link/cover__link.css);
 
 @media screen and (max-width: 1024px) {
 

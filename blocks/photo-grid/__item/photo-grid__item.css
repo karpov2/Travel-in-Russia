@@ -1,4 +1,4 @@
-@import url('./photo-grid__item_order/photo-grid__item_order_12.css');
+@import url(./_order/photo-grid__item_order_12.css);
 
 .photo-grid__item {
     width: calc((100% - (16px * 3)) / 4);

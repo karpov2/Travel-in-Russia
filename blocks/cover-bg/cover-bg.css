@@ -5,5 +5,5 @@
     left: 0;
     right: 0;
     z-index: -1;
-    background: url('./cover-bg.jpg') no-repeat center / cover;
+    background: url(./cover-bg.jpg) no-repeat center / cover;
 }

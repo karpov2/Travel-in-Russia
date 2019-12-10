@@ -1,6 +1,6 @@
-@import url('./comments__container/comments__container.css');
-@import url('./comments__container/comment/comment.css');
-@import url('./comments__container/comment/comment__image/comment__image.css');
-@import url('./comments__container/comment/comment__blockquote/comment__blockquote.css');
-@import url('./comments__container/comment/comment__quote/comment__quote.css');
-@import url('./comments__container/comment/comment__author/comment__author.css');
+@import url(./__container/comments__container.css);
+@import url(./__container/comment/comment.css);
+@import url(./__container/comment/__image/comment__image.css);
+@import url(./__container/comment/__blockquote/comment__blockquote.css);
+@import url(./__container/comment/__quote/comment__quote.css);
+@import url(./__container/comment/__author/comment__author.css);
